@@ -1,0 +1,11 @@
+echo "---------METADATA-------------"
+echo "First name: $1"
+echo "Last name: $2"
+echo "Hello there $1 $!"
+
+echo "---------METADATA-------------"
+echo "Name of the executed script: $0"
+echo "# of given arguments by use: $#"
+echo "Script PID: $$"
+echo "Script Status: $?"
+echo "All provided arguments by user: [$@]"
